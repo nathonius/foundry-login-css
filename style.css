@@ -20,7 +20,7 @@
   /* Center world name */
   text-align: center;
 }
-#setup #join-game .join-body .app {
+#setup #join-game .app {
   /* Remove background textures, frames */
   background: transparent;
   border: none;

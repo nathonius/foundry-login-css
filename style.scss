@@ -30,14 +30,16 @@ $btn-text: white;
       text-align: center;
     }
 
+    .app {
+      /* Remove background textures, frames */
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+    }
+
     .join-body {
       .app {
-        /* Remove background textures, frames */
-        background: transparent;
-        border: none;
-        box-shadow: none;
-        border-radius: 0;
-
         .form-group {
           label {
             /* Remove form labels */

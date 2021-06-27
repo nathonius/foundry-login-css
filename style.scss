@@ -1,0 +1,79 @@
+$bg-color: rgba(0, 0, 0, 0.35);
+$btn-color: #7c2829;
+$btn-border: #491718;
+$btn-hover: #952f30;
+$btn-text: white;
+
+#setup {
+  /* Left align everything */
+  align-items: flex-start;
+
+  h1 {
+    /* Header font */
+    font-family: "Modesto Condensed", "Signika", sans-serif;
+  }
+
+  #join-game {
+    /* Set background color */
+    background: $bg-color;
+
+    /* Move frame to top */
+    top: 0;
+    margin: 0;
+
+    /* Left-align, set width */
+    width: unset;
+    min-width: 250px;
+
+    #world-title {
+      /* Center world name */
+      text-align: center;
+    }
+
+    .join-body {
+      .app {
+        /* Remove background textures, frames */
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+
+        .form-group {
+          label {
+            /* Remove form labels */
+            display: none;
+          }
+
+          input,
+          select {
+            /* Form group items */
+            min-height: 32px;
+            width: 100%;
+          }
+        }
+      }
+
+      button {
+        /* Form buttons */
+        margin: 0;
+        background-color: $btn-color;
+        color: $btn-text;
+        border-color: $btn-border;
+
+        &:hover {
+          background-color: $btn-hover;
+        }
+      }
+
+      .flexcol.right {
+        /* Remove description */
+        display: none;
+      }
+
+      .flexcol.left .app:nth-of-type(2) {
+        /* Remove game details */
+        display: none;
+      }
+    }
+  }
+}

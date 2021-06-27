@@ -1,0 +1,59 @@
+#setup {
+  /* Left align everything */
+  align-items: flex-start;
+}
+#setup h1 {
+  /* Header font */
+  font-family: "Modesto Condensed", "Signika", sans-serif;
+}
+#setup #join-game {
+  /* Set background color */
+  background: rgba(0, 0, 0, 0.35);
+  /* Move frame to top */
+  top: 0;
+  margin: 0;
+  /* Left-align, set width */
+  width: unset;
+  min-width: 250px;
+}
+#setup #join-game #world-title {
+  /* Center world name */
+  text-align: center;
+}
+#setup #join-game .join-body .app {
+  /* Remove background textures, frames */
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+#setup #join-game .join-body .app .form-group label {
+  /* Remove form labels */
+  display: none;
+}
+#setup #join-game .join-body .app .form-group input,
+#setup #join-game .join-body .app .form-group select {
+  /* Form group items */
+  min-height: 32px;
+  width: 100%;
+}
+#setup #join-game .join-body button {
+  /* Form buttons */
+  margin: 0;
+  background-color: #7c2829;
+  color: white;
+  border-color: #491718;
+}
+#setup #join-game .join-body button:hover {
+  background-color: #952f30;
+}
+#setup #join-game .join-body .flexcol.right {
+  /* Remove description */
+  display: none;
+}
+#setup #join-game .join-body .flexcol.left .app:nth-of-type(2) {
+  /* Remove game details */
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

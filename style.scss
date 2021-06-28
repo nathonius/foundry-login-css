@@ -1,3 +1,9 @@
+/*
+Login styles for Foundry VTT by OfficerHalf
+Source: https://github.com/OfficerHalf/foundry-login-css
+Version: 1.1.0
+*/
+
 $bg-color: rgba(0, 0, 0, 0.35);
 $btn-color: #7c2829;
 $btn-border: #491718;
@@ -23,11 +29,15 @@ $btn-text: white;
 
     /* Left-align, set width */
     width: unset;
-    min-width: 250px;
+    min-width: 300px;
 
     #world-title {
+      /* Give world name a bit more room */
+      height: 120px;
       /* Center world name */
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .app {
@@ -61,6 +71,7 @@ $btn-text: white;
         background-color: $btn-color;
         color: $btn-text;
         border-color: $btn-border;
+        height: 40px;
 
         &:hover {
           background-color: $btn-hover;

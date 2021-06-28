@@ -1,3 +1,8 @@
+/*
+Login styles for Foundry VTT by OfficerHalf
+Source: https://github.com/OfficerHalf/foundry-login-css
+Version: 1.1.0
+*/
 #setup {
   /* Left align everything */
   align-items: flex-start;
@@ -14,11 +19,15 @@
   margin: 0;
   /* Left-align, set width */
   width: unset;
-  min-width: 250px;
+  min-width: 300px;
 }
 #setup #join-game #world-title {
+  /* Give world name a bit more room */
+  height: 120px;
   /* Center world name */
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #setup #join-game .app {
   /* Remove background textures, frames */
@@ -43,6 +52,7 @@
   background-color: #7c2829;
   color: white;
   border-color: #491718;
+  height: 40px;
 }
 #setup #join-game .join-body button:hover {
   background-color: #952f30;

@@ -20,3 +20,8 @@ Add the CSS to the end of the `/foundry_vtt/resources/app/public/css/style.css` 
 
 - Remove title section background.
 - Add warning to backup original styles.
+
+**1.1.0**
+
+- Add a bit more breathing room. Menu is wider, title has more vertical space.
+- Add version note, author comment to css.
